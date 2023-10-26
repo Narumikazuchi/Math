@@ -1,0 +1,735 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Narumikazuchi.Math</name>
+    </assembly>
+    <members>
+        <member name="T:Narumikazuchi.Math.Formatters.FiveAdicFloatingPointFormatter">
+            <summary>
+            Formats any given number into a base-5 representation.
+            </summary>
+        </member>
+        <member name="P:Narumikazuchi.Math.Formatters.FiveAdicFloatingPointFormatter.Default">
+            <summary>
+            Gets the default instance of the <see cref="T:Narumikazuchi.Math.Formatters.FiveAdicFloatingPointFormatter"/>.
+            </summary>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicFloatingPointFormatter.FormatToSpan(System.Half,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-5 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicFloatingPointFormatter.FormatToSpan(System.Single,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-5 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicFloatingPointFormatter.FormatToSpan(System.Double,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-5 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicFloatingPointFormatter.FormatToString(System.Half,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-5 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicFloatingPointFormatter.FormatToString(System.Single,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-5 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicFloatingPointFormatter.FormatToString(System.Double,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-5 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-5 representation.</returns>
+        </member>
+        <member name="T:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter">
+            <summary>
+            Formats any given integer into a base-5 representation.
+            </summary>
+        </member>
+        <member name="P:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.Default">
+            <summary>
+            Gets the default instance of the <see cref="T:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter"/>.
+            </summary>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToSpan(System.SByte)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToSpan(System.Byte)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToSpan(System.Int16)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToSpan(System.UInt16)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToSpan(System.Int32)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToSpan(System.UInt32)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToSpan(System.Int64)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToSpan(System.UInt64)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToString(System.SByte)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToString(System.Byte)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToString(System.Int16)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToString(System.UInt16)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToString(System.Int32)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToString(System.UInt32)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToString(System.Int64)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.FiveAdicIntegerFormatter.FormatToString(System.UInt64)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-5 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-5 representation.</returns>
+        </member>
+        <member name="T:Narumikazuchi.Math.Formatters.IFloatingPointFormatter`1">
+            <summary>
+            Provides the functionality to format a floating point number of type <typeparamref name="TFloatingPoint"/> into a specific visual representation.
+            </summary>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.IFloatingPointFormatter`1.FormatToSpan(`0,System.UInt16)">
+            <summary>
+            Format the given <paramref name="floatingPoint"/> into a <see cref="T:System.ReadOnlySpan`1"/> of type <see cref="T:System.Char"/>.
+            </summary>
+            <param name="floatingPoint">The value to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>A <see cref="T:System.ReadOnlySpan`1"/> of type <see cref="T:System.Char"/> representing the value of <paramref name="floatingPoint"/>.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.IFloatingPointFormatter`1.FormatToString(`0,System.UInt16)">
+            <summary>
+            Format the given <paramref name="floatingPoint"/> into a <see cref="T:System.String"/>.
+            </summary>
+            <param name="floatingPoint">The value to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>A <see cref="T:System.String"/> representing the value of <paramref name="floatingPoint"/>.</returns>
+        </member>
+        <member name="T:Narumikazuchi.Math.Formatters.IIntegerFormatter`1">
+            <summary>
+            Provides the functionality to format an integer of type <typeparamref name="TInteger"/> into a specific visual representation.
+            </summary>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.IIntegerFormatter`1.FormatToSpan(`0)">
+            <summary>
+            Format the given <paramref name="integer"/> into a <see cref="T:System.ReadOnlySpan`1"/> of type <see cref="T:System.Char"/>.
+            </summary>
+            <param name="integer">The value to format.</param>
+            <returns>A <see cref="T:System.ReadOnlySpan`1"/> of type <see cref="T:System.Char"/> representing the value of <paramref name="integer"/>.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.IIntegerFormatter`1.FormatToString(`0)">
+            <summary>
+            Format the given <paramref name="integer"/> into a <see cref="T:System.String"/>.
+            </summary>
+            <param name="integer">The value to format.</param>
+            <returns>A <see cref="T:System.String"/> representing the value of <paramref name="integer"/>.</returns>
+        </member>
+        <member name="T:Narumikazuchi.Math.Formatters.RomanIntegerFormatter">
+            <summary>
+            Represents integers in the form of roman numerals.
+            </summary>
+        </member>
+        <member name="P:Narumikazuchi.Math.Formatters.RomanIntegerFormatter.Default">
+            <summary>
+            Gets the default instance of the <see cref="T:Narumikazuchi.Math.Formatters.RomanIntegerFormatter"/>.
+            </summary>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.RomanIntegerFormatter.FormatToSpan(System.Byte)">
+            <summary>
+            Formats the <paramref name="integer"/> into a visual representation using roman numerals.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The number represented as roman numeral.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.RomanIntegerFormatter.FormatToSpan(System.UInt16)">
+            <summary>
+            Formats the <paramref name="integer"/> into a visual representation using roman numerals.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The number represented as roman numeral.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.RomanIntegerFormatter.FormatToString(System.Byte)">
+            <summary>
+            Formats the <paramref name="integer"/> into a visual representation using roman numerals.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The number represented as roman numeral.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.RomanIntegerFormatter.FormatToString(System.UInt16)">
+            <summary>
+            Formats the <paramref name="integer"/> into a visual representation using roman numerals.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The number represented as roman numeral.</returns>
+        </member>
+        <member name="T:Narumikazuchi.Math.Formatters.SevenAdicFloatingPointFormatter">
+            <summary>
+            Formats any given number into a base-7 representation.
+            </summary>
+        </member>
+        <member name="P:Narumikazuchi.Math.Formatters.SevenAdicFloatingPointFormatter.Default">
+            <summary>
+            Gets the default instance of the <see cref="T:Narumikazuchi.Math.Formatters.SevenAdicFloatingPointFormatter"/>.
+            </summary>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicFloatingPointFormatter.FormatToSpan(System.Half,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-7 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicFloatingPointFormatter.FormatToSpan(System.Single,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-7 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicFloatingPointFormatter.FormatToSpan(System.Double,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-7 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicFloatingPointFormatter.FormatToString(System.Half,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-7 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicFloatingPointFormatter.FormatToString(System.Single,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-7 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicFloatingPointFormatter.FormatToString(System.Double,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-7 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-7 representation.</returns>
+        </member>
+        <member name="T:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter">
+            <summary>
+            Formats any given integer into a base-7 representation.
+            </summary>
+        </member>
+        <member name="P:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.Default">
+            <summary>
+            Gets the default instance of the <see cref="T:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter"/>.
+            </summary>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToSpan(System.SByte)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToSpan(System.Byte)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToSpan(System.Int16)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToSpan(System.UInt16)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToSpan(System.Int32)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToSpan(System.UInt32)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToSpan(System.Int64)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToSpan(System.UInt64)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToString(System.SByte)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToString(System.Byte)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToString(System.Int16)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToString(System.UInt16)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToString(System.Int32)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToString(System.UInt32)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToString(System.Int64)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.SevenAdicIntegerFormatter.FormatToString(System.UInt64)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-7 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-7 representation.</returns>
+        </member>
+        <member name="T:Narumikazuchi.Math.Formatters.ThreeAdicFloatingPointFormatter">
+            <summary>
+            Formats any given number into a base-3 representation.
+            </summary>
+        </member>
+        <member name="P:Narumikazuchi.Math.Formatters.ThreeAdicFloatingPointFormatter.Default">
+            <summary>
+            Gets the default instance of the <see cref="T:Narumikazuchi.Math.Formatters.ThreeAdicFloatingPointFormatter"/>.
+            </summary>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicFloatingPointFormatter.FormatToSpan(System.Half,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-3 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicFloatingPointFormatter.FormatToSpan(System.Single,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-3 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicFloatingPointFormatter.FormatToSpan(System.Double,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-3 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicFloatingPointFormatter.FormatToString(System.Half,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-3 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicFloatingPointFormatter.FormatToString(System.Single,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-3 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicFloatingPointFormatter.FormatToString(System.Double,System.UInt16)">
+            <summary>
+            Formats the <paramref name="floatingPoint"/> into a base-3 representation with <paramref name="precision"/> as number of decimal places.
+            </summary>
+            <param name="floatingPoint">The number to format.</param>
+            <param name="precision">The number of decimal places.</param>
+            <returns>The <paramref name="floatingPoint"/> in base-3 representation.</returns>
+        </member>
+        <member name="T:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter">
+            <summary>
+            Formats any given integer into a base-3 representation.
+            </summary>
+        </member>
+        <member name="P:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.Default">
+            <summary>
+            Gets the default instance of the <see cref="T:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter"/>.
+            </summary>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToSpan(System.SByte)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToSpan(System.Byte)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToSpan(System.Int16)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToSpan(System.UInt16)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToSpan(System.Int32)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToSpan(System.UInt32)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToSpan(System.Int64)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToSpan(System.UInt64)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToString(System.SByte)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToString(System.Byte)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToString(System.Int16)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToString(System.UInt16)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToString(System.Int32)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToString(System.UInt32)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToString(System.Int64)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.Formatters.ThreeAdicIntegerFormatter.FormatToString(System.UInt64)">
+            <summary>
+            Formats the <paramref name="integer"/> into a base-3 representation.
+            </summary>
+            <param name="integer">The number to format.</param>
+            <returns>The <paramref name="integer"/> in base-3 representation.</returns>
+        </member>
+        <member name="T:Narumikazuchi.Math.Numerics.PrimeInteger">
+            <summary>
+            Represents a prime number.
+            </summary>
+        </member>
+        <member name="M:Narumikazuchi.Math.Numerics.PrimeInteger.op_Implicit(Narumikazuchi.Math.Numerics.PrimeInteger)~System.UInt32">
+            <summary>
+            Implicit conversion to <see cref="T:System.UInt32"/> struct.
+            </summary>
+        </member>
+        <member name="M:Narumikazuchi.Math.Numerics.PrimeInteger.op_Implicit(System.UInt32)~Narumikazuchi.Math.Numerics.PrimeInteger">
+            <summary>
+            Implicit conversion from <see cref="T:System.UInt32"/> struct.
+            </summary>
+        </member>
+        <member name="M:Narumikazuchi.Math.Numerics.PrimeInteger.#ctor(System.UInt32,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Narumikazuchi.Math.Numerics.PrimeInteger"/> struct.
+            </summary>
+            <param name="source">The value of the prime.</param>
+            <param name="alreadyChecked">Whether or not to check if the <paramref name="source"/> is actually a prime.</param>
+            <remarks>
+            Setting <paramref name="alreadyChecked"/> to <see langword="true"/> will effectively skip the prime check.
+            This can obviously lead to functional problems later on if handled incorrectly. It is generally a good idea to
+            just leave it at <see langword="false"/>.
+            </remarks>
+            <exception cref="T:System.ArgumentException"/>
+        </member>
+        <member name="M:Narumikazuchi.Math.Numerics.PrimeInteger.Equals(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Narumikazuchi.Math.Numerics.PrimeInteger.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="M:Narumikazuchi.Math.Numerics.PrimeInteger.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="P:Narumikazuchi.Math.Numerics.PrimeInteger.Value">
+            <summary>
+            Gets the actual value of the struct.
+            </summary>
+        </member>
+        <member name="M:Narumikazuchi.Math.Numerics.PrimeInteger.System#IComparable#CompareTo(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Narumikazuchi.Math.Numerics.PrimeInteger.CompareTo(Narumikazuchi.Math.Numerics.PrimeInteger)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Narumikazuchi.Math.Numerics.PrimeInteger.Equals(System.UInt32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Narumikazuchi.Math.Numerics.PrimeInteger.Equals(Narumikazuchi.Math.Numerics.PrimeInteger)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Narumikazuchi.Math.Numerics.PrimeInteger.ToString(System.String,System.IFormatProvider)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Narumikazuchi.Math.Numerics.PrimeInteger.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Narumikazuchi.Math.PrimeEnumerator">
+            <summary>
+            Enumerates through a list of prime numbers.
+            </summary>
+        </member>
+        <member name="M:Narumikazuchi.Math.PrimeEnumerator.GetEnumerator">
+            <summary>
+            Gets the <see cref="T:System.Collections.Generic.IEnumerator`1"/> for this <see cref="T:System.Collections.Generic.IEnumerable`1"/>.
+            </summary>
+            <returns>Itself, if the enumeration has not yet started; else a clone of itself.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.PrimeEnumerator.MoveNext">
+            <inheritdoc/>
+        </member>
+        <member name="P:Narumikazuchi.Math.PrimeEnumerator.Current">
+            <inheritdoc/>
+        </member>
+        <member name="T:Narumikazuchi.Math.PrimeGenerator">
+            <summary>
+            A helper class that generates prime numbers and checks if a given number is a prime number.
+            </summary>
+        </member>
+        <member name="M:Narumikazuchi.Math.PrimeGenerator.IsPrime(System.UInt32)">
+            <summary>
+            Checks whether the given <paramref name="candidate"/> is a prime number.
+            </summary>
+            <param name="candidate">The number to check.</param>
+            <returns><see langword="true"/> if the <paramref name="candidate"/> is a prime number; otherwise, <see langword="false"/></returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.PrimeGenerator.NearestSmallerPrime(System.UInt32)">
+            <summary>
+            Gets the closest prime number to <paramref name="origin"/> which is also smaller than <paramref name="origin"/>.
+            </summary>
+            <param name="origin">The relative origin for the search.</param>
+            <returns>The closest prime number to <paramref name="origin"/> which is also smaller than <paramref name="origin"/>.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.PrimeGenerator.NearestBiggerPrime(System.UInt32)">
+            <summary>
+            Gets the closest prime number to <paramref name="origin"/> which is also bigger than <paramref name="origin"/>.
+            </summary>
+            <param name="origin">The relative origin for the search.</param>
+            <returns>The closest prime number to <paramref name="origin"/> which is also smaller than <paramref name="origin"/>.</returns>
+        </member>
+        <member name="M:Narumikazuchi.Math.PrimeGenerator.ListUntil(System.UInt32,System.UInt32)">
+            <summary>
+            Enumerates all primes in the range specified by the starting point to the end point.
+            </summary>
+            <returns>An ascending list of primes that appear in the specified range</returns>
+        </member>
+    </members>
+</doc>

@@ -1,1 +1,1 @@
-For a detailed description of all the contents of the library and their usage visit the [wiki](https://github.com/Narumikazuchi/Common/wiki) page.
+This library contains some formatters to display a number in base-3, base-5 or base-7 format as well as a generator class for primes and a formatter to display a number as roman numerals. For a detailed description of all the contents of the library and their usage visit the [wiki](https://github.com/Narumikazuchi/Math/wiki) page.

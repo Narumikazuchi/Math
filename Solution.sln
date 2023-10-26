@@ -3,15 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Narumikazuchi.Math", "Narumikazuchi.Math\Narumikazuchi.Math.csproj", "{FBCBC78D-68F8-40A9-A577-049640020557}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{EADE69EB-C3F8-45E0-952A-1875B11AE1C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBCBC78D-68F8-40A9-A577-049640020557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCBC78D-68F8-40A9-A577-049640020557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCBC78D-68F8-40A9-A577-049640020557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCBC78D-68F8-40A9-A577-049640020557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EADE69EB-C3F8-45E0-952A-1875B11AE1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EADE69EB-C3F8-45E0-952A-1875B11AE1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EADE69EB-C3F8-45E0-952A-1875B11AE1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EADE69EB-C3F8-45E0-952A-1875B11AE1C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {69DD5FE3-93EF-4D96-BB50-F46FF01DB065}
+		SolutionGuid = {54C4B638-BC11-47BF-A1DF-88F76D75E63F}
 	EndGlobalSection
 EndGlobal

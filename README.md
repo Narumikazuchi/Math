@@ -7,7 +7,7 @@ The functionalities that are implemented here are mostly just for the purpose of
 Speaking of prime numbers, there is also a generator for prime numbers in this library, just in case one is needed.
 
 # Contents
-Upon looking at the signatures of the classes their capabilities should be clear at a glance. They are also documented, so the should be little confusion as to how they are used. A little side node for the ```PrimeInteger```, since
+Upon looking at the signatures of the classes their capabilities should be clear at a glance. They are also documented, so there should be little confusion as to how they are used. A little side node for the ```PrimeInteger```, since
 this struct has an implicit conversion, it can throw runtime exceptions for wrong parameters while also providing a clear signature of was a method expects. For example ```public void Foobar(PrimeInteger prime)``` clearly conveys the intent and what the
 method expects as parameter.  
 
